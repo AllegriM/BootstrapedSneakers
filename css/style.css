@@ -1,0 +1,89 @@
+/* Preseteo CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body{
+    background: rgb(26, 26, 26);
+}
+/* Nav bar */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* Section */
+
+.header{
+    margin: 0 8%;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    margin: 0 10%;
+}
+
+/* Cards */
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.row{
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+}
+
+.container-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.fa-cart-shopping{
+    color: white;
+
+}
+
+.carrito{
+    font-size: 1rem;
+}
+
+/* Ultimo Carrousel */
+
+.last-carrousel{
+    background: white;
+    width: 100%;
+}
+
+.slogan{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.flechita{
+    color: black;
+    background-color: black;
+}
