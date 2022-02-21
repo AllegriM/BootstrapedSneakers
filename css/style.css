@@ -10,15 +10,6 @@
 body{
     background: rgb(26, 26, 26);
 }
-/* Nav bar */
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
 
 /* Section */
 
@@ -28,6 +19,8 @@ nav{
 
 img{
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section{
@@ -41,6 +34,7 @@ h2{
     color: white;
     font-size: 3.5rem;
     margin-bottom: 1rem;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .row{
@@ -67,7 +61,7 @@ h2{
 }
 
 .carrito{
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 
 /* Ultimo Carrousel */
@@ -80,10 +74,58 @@ h2{
 .slogan{
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 
 .flechita{
     color: black;
     background-color: black;
 }
+
+/* Contact */
+
+.section-contact{
+    margin: 0 20%;
+}
+
+
+label{
+    color: #adb5bd;
+}
+
+/* Header shop */
+
+.header-shop{
+    margin: 0 20%;
+}
+
+/* Accordeon */
+
+.acordeon{
+    background-color: transparent;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.grid-sticky-menu{
+    position: relative;
+    top: 12px;
+    left: 0;
+}
+
+.cards-container{
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+.flex-row{
+    display: inline-block;
+}
+
