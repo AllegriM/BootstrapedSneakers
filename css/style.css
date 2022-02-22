@@ -101,10 +101,6 @@ label{
 
 /* Accordeon */
 
-.acordeon{
-    background-color: transparent;
-}
-
 li{
     list-style: none;
 }
@@ -114,18 +110,31 @@ a{
     color: black;
 }
 
-.grid-sticky-menu{
-    position: relative;
-    top: 12px;
-    left: 0;
-}
-
 .cards-container{
     margin-top: 10px;
     align-self: flex-end;
 }
 
-.flex-row{
-    display: inline-block;
+.merge{
+    display: flex;
+    align-items: flex-start;
 }
 
+.accordion-item,
+.accordion-button,
+.accordion-body a{
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.accordion-body{
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Cards */
+
+.card-body{
+    text-align: center;
+}
