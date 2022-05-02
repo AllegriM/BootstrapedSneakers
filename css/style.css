@@ -101,10 +101,13 @@ label{
 
 /* Accordeon */
 
+<<<<<<< HEAD
 .acordeon{
     background-color: transparent;
 }
 
+=======
+>>>>>>> 11dc22a1195af1a5017eb1befe0a83d34e10b46c
 li{
     list-style: none;
 }
@@ -114,18 +117,47 @@ a{
     color: black;
 }
 
+<<<<<<< HEAD
 .grid-sticky-menu{
     position: relative;
     top: 12px;
     left: 0;
 }
 
+=======
+>>>>>>> 11dc22a1195af1a5017eb1befe0a83d34e10b46c
 .cards-container{
     margin-top: 10px;
     align-self: flex-end;
 }
 
+<<<<<<< HEAD
 .flex-row{
     display: inline-block;
 }
 
+=======
+.merge{
+    display: flex;
+    align-items: flex-start;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-body a{
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.accordion-body{
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Cards */
+
+.card-body{
+    text-align: center;
+}
+>>>>>>> 11dc22a1195af1a5017eb1befe0a83d34e10b46c
